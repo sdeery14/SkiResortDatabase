@@ -36,10 +36,10 @@ The project involves multiple stages of database design:
 4. **External Data Model**: Views and stored procedures for operations.
 
 ### Conceptual Model
-![Conceptual Data Model](path/to/conceptual_model.png)
+![Conceptual Data Model](conceptual_model.png)
 
 ### Logical Model
-![Logical Data Model](path/to/logical_model.png)
+![Logical Data Model](logical_model.png)
 
 ### External Data Model and Data Logic
 - **Views**: For resort management, main office, and lift gate validation.
