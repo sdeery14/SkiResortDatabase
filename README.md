@@ -36,10 +36,10 @@ The project involves multiple stages of database design:
 4. **External Data Model**: Views and stored procedures for operations.
 
 ### Conceptual Model
-![Conceptual Data Model](conceptual_model.png)
+![Conceptual Data Model](conceptual-model.png)
 
 ### Logical Model
-![Logical Data Model](logical_model.png)
+![Logical Data Model](logical-model.png)
 
 ### External Data Model and Data Logic
 - **Views**: For resort management, main office, and lift gate validation.
@@ -50,7 +50,7 @@ To set up the project locally using an MSSQL database and Azure Data Studio, fol
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/sdeery14/SkiResortDatabase.git
+   git clone https://github.com/sdeery14/ski-resort-database.git
    ```
 
 2. **Navigate to the project directory**:
@@ -62,8 +62,8 @@ To set up the project locally using an MSSQL database and Azure Data Studio, fol
    - Open Azure Data Studio and connect to your MSSQL server.
    
 4. **Run the SQL scripts to set up the database schema and load initial data**:
-   - Open the `ski_resort_internal_updown.sql` script in Azure Data Studio and execute it to set up the internal database schema and load the data.
-   - Execute the `ski_resort_external_updown.sql` script to set up views and stored procedures:
+   - Open the `ski-resort-internal-updown.sql` script in Azure Data Studio and execute it to set up the internal database schema and load the data.
+   - Execute the `ski-resort-external-updown.sql` script to set up views and stored procedures:
 
 ## Usage
 Once the database is set up, you can perform various operations:
@@ -75,10 +75,10 @@ Once the database is set up, you can perform various operations:
    - Access different views like `v_manager`, `v_attendant`, and `v_lift` for operational insights.
 
 ## Project Structure
-- `ski_resort_external_updown.sql`: Contains SQL scripts for setting up the external side of the database database.
-- `ski_resort_internal_updown.sql`: Contains SQL scripts for setting up the internal side of the database.
-- `ski_resort_Griffins_implementations.sql`: Contains SQL scripts to simulate a family visit.
-- `final_project.docx`: Documentation including data models and project report.
+- `ski-resort-external-updown.sql`: Contains SQL scripts for setting up the external side of the database database.
+- `ski-resort-internal-updown.sql`: Contains SQL scripts for setting up the internal side of the database.
+- `ski-resort-test-griffins.sql`: Contains SQL scripts to simulate a family visit.
+- `ski-resort-database-report.docx`: Documentation including data models and project report.
 
 ## Contributing
 We welcome contributions to improve the Ski Resort Management System. Please follow these steps:
