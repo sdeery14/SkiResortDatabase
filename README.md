@@ -5,6 +5,7 @@
 - [Project Overview](#project-overview)
 - [Team Members](#team-members)
 - [Features](#features)
+- [Tools](#tools)
 - [Database Design](#database-design)
 - [Installation](#installation)
 - [Usage](#usage)
