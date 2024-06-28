@@ -34,9 +34,9 @@ This project aims to design, implement, and evaluate a database system for a ski
 - **Real-Time Data Views**: Various views for monitoring resort activities and ticket validation at lift gates.
 
 ## Tools
-- VSCode
-- Microsoft SQL Server (MSSQL)
 - Draw.io
+- Azure Data Studio
+- Microsoft SQL Server (MSSQL)
 
 ## Database Design
 The project involves multiple stages of database design:
