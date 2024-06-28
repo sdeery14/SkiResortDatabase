@@ -1,6 +1,7 @@
 # Ski Resort Management System
 
 ## Table of Contents
+- [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [Team Members](#team-members)
 - [Features](#features)
@@ -8,9 +9,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -96,10 +95,26 @@ Once the database is set up, you can perform various operations. See the `ski-re
    - Access different views like `v_manager`, `v_attendant`, and `v_lift` for operational insights.
 
 ## Project Structure
-- `ski-resort-external-updown.sql`: Contains SQL scripts for setting up the external side of the database database.
+
+### docs
+- `application-screens.drawio`: Diagram file for application screens.
+- `ER-Data-Requirements.xlsx`: Excel file with entity-relationship data requirements.
+- `ski-resort-database-report.docx`: Documentation including data models and project report.
+
+### images
+- `conceptual-model.png`: Conceptual model diagram.
+- `entities-and-attributes.png`: Entities and attributes diagram.
+- `front-end-office.png`: Front-end application screen for main office.
+- `front-end-rental.png`: Front-end application screen for rental shop.
+- `front-end-skier.png`: Front-end application screen for skier.
+- `logical-model.png`: Logical model diagram.
+- `relationships.png`: Relationships diagram.
+
+### scripts
+- `ski-resort-external-updown.sql`: Contains SQL scripts for setting up the external side of the database.
 - `ski-resort-internal-updown.sql`: Contains SQL scripts for setting up the internal side of the database.
 - `ski-resort-test-griffins.sql`: Contains SQL scripts to simulate a family visit.
-- `ski-resort-database-report.docx`: Documentation including data models and project report.
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
